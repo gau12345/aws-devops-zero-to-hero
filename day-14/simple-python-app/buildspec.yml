@@ -4,7 +4,6 @@ env:
   parameter-store:
     DOCKER_REGISTRY_USERNAME: gautadas
     DOCKER_REGISTRY_PASSWORD: newadmin1
-    DOCKER_REGISTRY_URL: docker.io
 phases:
   install:
     runtime-versions:
