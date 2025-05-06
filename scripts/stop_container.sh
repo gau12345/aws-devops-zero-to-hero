@@ -1,5 +1,7 @@
 #!/bin/bash
-set -e
+#set -e
 
 # Stop the running container (if any)
-echo "Hi"
+#echo "Hi"
+last_container_id=$(sudo docker ps -aq | head -n 1)
+docker rm -f $last_container_id
